@@ -1,0 +1,25 @@
+# Python tarafından oluşturulan geçici dosyalar ve dizinler
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# İşletim sistemi geçici dosyaları
+.DS_Store
+Thumbs.db
+
+# Gider takipçisi uygulaması için veri dosyası
+expenses.csv
+
+# VS Code özel dosyaları (isteğe bağlı, genellikle bırakılabilir)
+.vscode/
+
+# Eğer farklı IDE'ler kullanıyorsanız onların oluşturduğu dosyaları da ekleyebilirsiniz.
+# Örneğin:
+# .idea/  (PyCharm)
+# *.log
